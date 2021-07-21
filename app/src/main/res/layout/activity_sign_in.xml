@@ -106,13 +106,24 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="110dp"
-            android:background="#8C4AD4"
+            android:backgroundTint="#008C4AD4"
             android:text="Create Now"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintLeft_toLeftOf="@id/notyet" />
+
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <Button
+        android:id="@+id/btnguest"
+        android:layout_marginTop="80dp"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:backgroundTint="#008C4AD4"
+        android:layout_marginHorizontal="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Continue as GUEST"/>
 
 
 </LinearLayout>
