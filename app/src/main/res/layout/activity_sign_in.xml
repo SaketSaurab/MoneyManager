@@ -11,14 +11,21 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/usericon"
+        android:layout_gravity="center_horizontal"
+        />
 
     <TextView
 
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="25dp"
+
         android:fontFamily="@font/slabo_13px"
-        android:paddingVertical="20dp"
+
         android:text="Login"
         android:textAlignment="center"
         android:textColor="@color/white"
