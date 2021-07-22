@@ -53,18 +53,18 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvmoney" />
 
-        <Button
-            android:id="@+id/btncontinue"
-            android:layout_width="match_parent"
-            android:layout_marginTop="150dp"
-            android:textAllCaps="false"
-            android:textSize="25sp"
-            android:backgroundTint="#008C4AD4"
-            android:layout_marginHorizontal="50dp"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/slabo_13px"
-            android:text=" Continue "
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintTop_toBottomOf="@id/tvmanager" />
+<!--        <Button-->
+<!--            android:id="@+id/btncontinue"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginTop="150dp"-->
+<!--            android:textAllCaps="false"-->
+<!--            android:textSize="25sp"-->
+<!--            android:backgroundTint="#008C4AD4"-->
+<!--            android:layout_marginHorizontal="50dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:fontFamily="@font/slabo_13px"-->
+<!--            android:text=" Continue "-->
+<!--            app:layout_constraintBottom_toBottomOf="parent"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tvmanager" />-->
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
